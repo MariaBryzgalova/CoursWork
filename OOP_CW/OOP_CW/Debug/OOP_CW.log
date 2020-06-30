@@ -1,0 +1,43 @@
+﻿  Applications.cpp
+  Backend.cpp
+  Basic.cpp
+  GeneralAssignment.cpp
+  MainContainer.cpp
+  MyForm.cpp
+C:\Users\User\Desktop\КР ООП\OOP_CW\OOP_CW\MyForm.h(425,25): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\User\Desktop\КР ООП\OOP_CW\OOP_CW\MyForm.h(373): message : выполняется компиляция ссылки на экземпляр шаблон функции "void OOPCW::MyForm::PrintInfo<std::vector<OS,std::allocator<_Ty>>>(int,System::Data::DataTable ^,T)"
+          with
+          [
+              _Ty=OS,
+              T=std::vector<OS,std::allocator<OS>>
+          ]
+C:\Users\User\Desktop\КР ООП\OOP_CW\OOP_CW\MyForm.h(440,25): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\User\Desktop\КР ООП\OOP_CW\OOP_CW\MyForm.h(563): message : выполняется компиляция ссылки на экземпляр шаблон функции "void OOPCW::MyForm::SaveInfo<std::vector<OS,std::allocator<_Ty>>>(int,System::Data::DataTable ^,T)"
+          with
+          [
+              _Ty=OS,
+              T=std::vector<OS,std::allocator<OS>>
+          ]
+  Objects.cpp
+  OS.cpp
+  Software.cpp
+C:\Users\User\Desktop\КР ООП\OOP_CW\OOP_CW\Software.cpp(15,12): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+C:\Users\User\Desktop\КР ООП\OOP_CW\OOP_CW\Software.cpp(25,12): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+  SpecialAssignment.cpp
+  SWTools.cpp
+  Transform.cpp
+  .NETFramework,Version=v4.7.2.AssemblyAttributes.cpp
+  Создание кода...
+C:\Users\User\Desktop\КР ООП\OOP_CW\OOP_CW\Transform.cpp(18): warning C4715: boolconv: значение возвращается не при всех путях выполнения
+  Applications.obj : обнаружен модуль MSIL; для MSIL последовательная компоновка отключена; выполняется полная компоновка
+MyForm.obj : error LNK2020: неразрешенная лексема (0A000323) "public: static class std::vector<class Backend,class std::allocator<class Backend> > Objects::be" (?be@Objects@@2V?$vector@VBackend@@V?$allocator@VBackend@@@std@@@std@@A)
+MyForm.obj : error LNK2020: неразрешенная лексема (0A00033B) "public: static class std::vector<class OS,class std::allocator<class OS> > Objects::os" (?os@Objects@@2V?$vector@VOS@@V?$allocator@VOS@@@std@@@std@@A)
+MyForm.obj : error LNK2020: неразрешенная лексема (0A000375) "public: static class std::vector<class GeneralAssignment,class std::allocator<class GeneralAssignment> > Objects::ga" (?ga@Objects@@2V?$vector@VGeneralAssignment@@V?$allocator@VGeneralAssignment@@@std@@@std@@A)
+MyForm.obj : error LNK2020: неразрешенная лексема (0A0003AB) "public: static class std::vector<class SWTools,class std::allocator<class SWTools> > Objects::swt" (?swt@Objects@@2V?$vector@VSWTools@@V?$allocator@VSWTools@@@std@@@std@@A)
+MyForm.obj : error LNK2020: неразрешенная лексема (0A000449) "public: static class std::vector<class SpecialAssignment,class std::allocator<class SpecialAssignment> > Objects::sa" (?sa@Objects@@2V?$vector@VSpecialAssignment@@V?$allocator@VSpecialAssignment@@@std@@@std@@A)
+MyForm.obj : error LNK2001: неразрешенный внешний символ "public: static class std::vector<class OS,class std::allocator<class OS> > Objects::os" (?os@Objects@@2V?$vector@VOS@@V?$allocator@VOS@@@std@@@std@@A).
+MyForm.obj : error LNK2001: неразрешенный внешний символ "public: static class std::vector<class Backend,class std::allocator<class Backend> > Objects::be" (?be@Objects@@2V?$vector@VBackend@@V?$allocator@VBackend@@@std@@@std@@A).
+MyForm.obj : error LNK2001: неразрешенный внешний символ "public: static class std::vector<class GeneralAssignment,class std::allocator<class GeneralAssignment> > Objects::ga" (?ga@Objects@@2V?$vector@VGeneralAssignment@@V?$allocator@VGeneralAssignment@@@std@@@std@@A).
+MyForm.obj : error LNK2001: неразрешенный внешний символ "public: static class std::vector<class SpecialAssignment,class std::allocator<class SpecialAssignment> > Objects::sa" (?sa@Objects@@2V?$vector@VSpecialAssignment@@V?$allocator@VSpecialAssignment@@@std@@@std@@A).
+MyForm.obj : error LNK2001: неразрешенный внешний символ "public: static class std::vector<class SWTools,class std::allocator<class SWTools> > Objects::swt" (?swt@Objects@@2V?$vector@VSWTools@@V?$allocator@VSWTools@@@std@@@std@@A).
+C:\Users\User\Desktop\КР ООП\OOP_CW\Debug\OOP_CW.exe : fatal error LNK1120: неразрешенных внешних элементов: 10
